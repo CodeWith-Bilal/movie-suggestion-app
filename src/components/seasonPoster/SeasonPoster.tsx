@@ -13,11 +13,11 @@ const SeasonPoster: React.FC<SeasonPosterProps> = ({
       <img
         src={`https://image.tmdb.org/t/p/original/${imageUrl}`}
         alt="Season Poster"
-        className="rounded-[20px] shrink-0 w-[305px] h-[202px] "
+        className="rounded-[20px] shrink-0 w-[305px] h-[202px] object-cover"
       />
 
       <div
-        className={`absolute top-2 left-2 rounded-[20px] flex items-center space-x-1 p-2 bg-black bg-opacity-75 transition-opacity duration-300}`}
+        className={`absolute top-2 left-2 rounded-[20px] flex items-center space-x-1 p-2 bg-opacity-75 transition-opacity duration-300}`}
       >
         <span className="text-white font-FONTSPRING-DEMO-Caros-Bold text-15px font-bold leading-9 letter-spacing-0 text-left ">
           ⭐ {Math.round(rating)}

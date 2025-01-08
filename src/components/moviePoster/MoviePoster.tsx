@@ -20,10 +20,10 @@ const MoviePoster: React.FC<MoviePosterProps> = ({
       <img
         src={`https://image.tmdb.org/t/p/original/${imageUrl}`}
         alt="Movie Poster"
-        className="rounded-[20px] shrink-0 w-[177px] h-[263px]"
+        className="rounded-[20px] shrink-0 w-[200px] h-[263px]"
       />
       <div
-        className={`absolute top-0 left-0 flex items-center rounded-[20px] space-x-1 p-2 bg-black bg-opacity-75 transition-opacity duration-300}`}
+        className={`absolute top-0 left-0 flex items-center rounded-[20px] space-x-1 p-2 bg-opacity-75 transition-opacity duration-300}`}
       >
         <span className="text-white font-FONTSPRING-DEMO-Caros-Bold text-15px font-bold leading-9 letter-spacing-0">
           ⭐ {Math.round(rating)}
