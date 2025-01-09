@@ -2,7 +2,7 @@ import AppRoutes from './routes/AppRoutes'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-[#EBEAEA]'>
       <AppRoutes/>
     </div>
   )

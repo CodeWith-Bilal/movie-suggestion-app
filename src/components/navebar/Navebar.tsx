@@ -36,7 +36,7 @@ const Navbar: React.FC<NavbarProps> = ({
       <div className="bg-[#EBEAEA]">
         <div className="container flex items-center justify-between">
           <div
-            className="font-serif font-bold  w-[130px] h-[106px] mt-[40px] md:ml-[80px] ml-[20px] w-600 text-2xl max-w-[100px] cursor-pointer"
+            className="font-serif font-extrabold w-[130px] mt-[40px] md:ml-[80px] ml-[20px] w-600 text-[35px] max-w-[100px] cursor-pointer"
             onClick={() => navigate("/")}
           >
             The Movie Tracker
@@ -62,7 +62,7 @@ const Navbar: React.FC<NavbarProps> = ({
           </div>
       
           <div
-            className={`absolute top-[140px] left-0 right-0 px-4 ${
+            className={`absolute top-[200px] left-0 right-0 px-4 ${
               isSearchVisible ? "block" : "hidden"
             } lg:flex lg:static lg:px-0`}
           >

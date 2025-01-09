@@ -11,7 +11,7 @@ const Search = () => {
         <Loader />
       ) : (
         <div>
-          <div className="mb-6 mt-8">
+          <div className="mb-6 mt-10">
             <h1 className="text-2xl font-bold">
               Search Results For: <span className="text-blue-500">{query}</span>
             </h1>

@@ -14,7 +14,7 @@ export default function MovieDetails() {
   }
 
   return (
-    <div className="container lg:ml-[80px] input:ml-[20px] ">
+    <div className="container lg:ml-[80px] input:ml-[20px] mt-[30px] bg-[#EBEAEA]">
         <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-4">
           {movieData ? (
             <div className="col-span sm:w-full">

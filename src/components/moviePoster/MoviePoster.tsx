@@ -14,7 +14,7 @@ const MoviePoster: React.FC<MoviePosterProps> = ({
  
   return (
     <div
-      className="relative rounded-md cursor-pointer overflow-hidden transition-transform transform-gpu hover:scale-105"
+      className="bg-[#EBEAEA] relative rounded-md cursor-pointer overflow-hidden transition-transform transform-gpu hover:scale-105"
       onClick={handleClick}
     >
       <img
