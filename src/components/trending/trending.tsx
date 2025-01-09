@@ -11,7 +11,7 @@ export default function Trending() {
     return <div>Error: {error}</div>
   }
   return (
-    <div className="col-span-12 sm:col-span-8 md:ms-5">
+    <div className="col-span-12 sm:col-span-8 md:ms-5 bg-[#EBEAEA]">
       <h1 className="mb-[11px] mt-[40px] ml-[20px] text-[20px] font-bold">
         Trending
       </h1>

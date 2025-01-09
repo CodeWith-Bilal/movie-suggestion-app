@@ -6,12 +6,12 @@ const Search = () => {
   const { query, searches, isLoading } = useSearchMovies();
 
   return (
-    <div className="p-4">
+    <div className="p-4 bg-[#EBEAEA]">
       {isLoading ? (
         <Loader />
       ) : (
         <div>
-          <div className="mb-6">
+          <div className="mb-6 mt-8">
             <h1 className="text-2xl font-bold">
               Search Results For: <span className="text-blue-500">{query}</span>
             </h1>

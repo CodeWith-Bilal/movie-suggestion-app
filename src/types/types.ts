@@ -62,3 +62,8 @@ export interface SeasonState {
   status: "idle" | "loading" | "succeeded" | "failed";
   error: string | null;
 }
+export interface NavbarProps {
+  searchPlaceholder?: string;
+  showSearchButton?: boolean;
+  showPlusButton?: boolean;
+}

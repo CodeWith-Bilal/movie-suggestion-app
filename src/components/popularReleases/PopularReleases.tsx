@@ -11,7 +11,7 @@ export default function PopularReleases() {
     return <div>Error: {error}</div>
   }
   return (
-    <div className="container mx-auto mb-4 pt-4">
+    <div className="container mx-auto mb-4 pt-4 bg-[#EBEAEA]">
       <h1 className="mb-[11px] mt-[48px] text-[20px] font-bold">
         Popular Releases
       </h1>

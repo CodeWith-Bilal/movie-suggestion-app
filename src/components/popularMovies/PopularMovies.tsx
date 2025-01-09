@@ -11,7 +11,7 @@ if(error){
   return <div>Error: {error}</div>
 }
   return (
-    <div className="col-span-12 sm:col-span-4 md:me-5">
+    <div className="col-span-12 sm:col-span-4 md:me-5 bg-[#EBEAEA]">
       <h1 className="mb-[11px] mt-[37px] text-[20px] font-bold">
         Popular Movies
       </h1>
