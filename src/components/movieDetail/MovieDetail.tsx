@@ -62,7 +62,7 @@ export default function MovieDetails() {
                   </span>
                 </div>
                 <p className="font-medium text-[18px] text-wrap w-auto mt-[19px] lg:ml-[-110px] ">
-                  {movieData.overview.slice(0, 300)}
+                  {movieData.overview.slice(0, 200)}
                 </p>
                 <h3 className="text-[18px] font-bold font-roboto lg:ml-[-110px] ">
                   IMDB Rating

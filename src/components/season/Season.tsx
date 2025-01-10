@@ -12,10 +12,10 @@ export default function Seasons() {
   }
   return (
     <>
-      <div className="container mt-[360px] md:my-2 mx-auto py-4">
+      <div className="container md:my-2 mx-auto py-4 mt-[280px]">
         <div className="grid grid-cols-2 gap-4 mb-[30px] ">
           <div className="flex flex-row gap-4">
-            <h1 className="font-bold text-4xl leading-9 ">Seasons</h1>
+            <h1 className="font-bold lg:text-4xl leading-9 text-[26px]">Seasons</h1>
             <span className="p-[10px] cursor-pointer  hover:bg-[#D2D2D2] flex flex-row rounded-[10px] lg:pl-[14.5px] lg:pt-[5px] lg:h-[43.27px] lg:w-[43.27px] bg-[#D9D9D9] text-black text-[20px] ">
               1
             </span>
@@ -25,7 +25,7 @@ export default function Seasons() {
             <span className="p-[10px] cursor-pointer  hover:bg-[#D2D2D2] flex flex-row rounded-[10px] lg:pl-[14.5px] lg:pt-[5px] lg:h-[43.27px] lg:w-[43.27px] bg-[#D9D9D9] text-black text-[20px] ">
               3
             </span>
-            <span className="p-[10px]  cursor-pointer  hover:bg-[#D2D2D2] flex flex-row rounded-[10px] lg:pl-[14.5px] lg:pt-[5px] lg:h-[43.27px] lg:w-[43.27px] bg-[#D9D9D9] text-black text-[20px] ">
+            <span className="p-[10px]  cursor-pointer  hover:bg-[#D2D2D2] flex flex-row rounded-[10px] lg:pl-[14.5px] lg:pt-[5px] lg:h-[43.27px] lg:w-[43.27px] bg-[#D9D9D9] text-black text-[20px">
               4
             </span>
           </div>
